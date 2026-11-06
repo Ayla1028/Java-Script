@@ -42,6 +42,9 @@ if (ageofConsent >=18){
     }else {
     console.log("Tu est un mineur");
 }
+
+let grade=76;
+
 if (grade >= 90){
     console.log("Excellent! Grade A");
 }else if(grade >=80){
@@ -69,12 +72,43 @@ Consignes :
 - Si le nombre est inférieur à zéro, affichez "Négatif".
 - Sinon, affichez "Zéro".*/
 
-let nummber = -5;
+let number = -5;
 
 if (number >= 0){
     console.log(number, "Positif")
 }else if(number = 0){
     console.log("Zéro")
 }else if(number<=0){
-    console.log("Positif")
+    console.log("Négatif")
+}
+
+let numberex2 = 3
+
+if (numberex2%2===0){
+    console.log(numberex2, "Pair")
+}else{
+    console.log(numberex2, "Impair")
+}
+
+//Exercice 3
+
+let username = "teacher"
+let password = "abc123"
+
+if (username == "student" & password == "abc123"){
+    console.log ("Connexion réussie!")
+}else{
+    console.log ("Conenexion échoué.")
+}
+for (let j=1; j <= 10;){
+    if (j%2==0){
+        console.log(j)
+    }
+    j=j+1
+}
+for (let k=10; k>=1;){
+    if (k%2==0){
+        console.log(k)
+    }
+    k=k-1
 }
