@@ -112,3 +112,60 @@ for (let k=10; k>=1;){
     }
     k=k-1
 }
+
+const fname = "John";
+//fname = "Ayla"
+/* commentaire multi ligne */
+// commentaire une ligne
+/* commentaire multi ligne 
+Ligne 2
+Ligne 3*/
+
+
+let age2 = 16;
+let country2 = "USA"
+let text = "You cannot drive!";
+
+if (country2 == "USA") {
+    if(age2 >= 16) {
+        text = "You can drive!";
+        console.log(text);
+    }
+}
+
+if (country2 == "USA" && age >=16){
+    text="You can drive!";
+    console.log(text);
+}
+
+let username2 = "student"
+let password2= "abc123"
+
+if (username2="student"){
+    if(password2="abc123"){
+        console.log ("Connexion réussie!")
+    }
+}
+if (username2 == "student" && password == "abc123"){
+    console.log("Connexion réussie!")
+}
+
+for (let number3=1 ; number3 <= 100; number3++){
+    if (number3%3==0 && number3%5 ==0){
+        console.log("FizzBuzz")
+    } else if (number3%3==0){
+        console.log("Fizz")
+    }else if (number3%5==0){
+        console.log("Buzz")
+    }else{
+        console.log(number3)
+    }
+}
+
+let nbr1=10
+let nbr2=25
+let nbr3=7
+let nbr4=89
+let nbr5=15
+
+for ()
